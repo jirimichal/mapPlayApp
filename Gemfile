@@ -45,9 +45,13 @@ group :development, :test do
 
 
 end
-  # ruby version
-  ruby '2.2.2'
-  # Puma webserver
-  gem 'puma'
-  #
-  gem 'rails_12factor', group: :production
+# ruby version
+ruby '2.2.2'
+# Puma webserver
+gem 'puma'
+#
+gem 'rails_12factor', group: :production
+#
+gem 'haml'
+# gem for google maps
+gem 'gmaps4rails'
