@@ -43,5 +43,9 @@ group :development, :test do
   gem 'spring'
   # Puma webserver
   gem 'puma'
+  # 
+  gem 'rails_12factor'
+  # ruby version
+  ruby '2.2.2'
 end
 
