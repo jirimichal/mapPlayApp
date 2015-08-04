@@ -56,3 +56,5 @@ gem 'rails_12factor', group: :production
 gem 'haml'
 # gem for google maps
 gem 'gmaps4rails'
+#
+gem 'pry-rails', group: :development
