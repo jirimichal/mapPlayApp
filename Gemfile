@@ -55,8 +55,8 @@ gem 'rails_12factor', group: :production
 #
 gem 'haml-rails'
 #
-#gem 'bootstrap-sass'
+gem 'bootstrap-sass'
 #
-#gem 'geocoder'
+gem 'geocoder'
 #
 gem 'pry-rails', group: :development
