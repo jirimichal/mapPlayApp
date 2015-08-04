@@ -53,8 +53,10 @@ gem 'puma'
 #
 gem 'rails_12factor', group: :production
 #
-gem 'haml'
-# gem for google maps
-gem 'gmaps4rails'
+gem 'haml-rails'
+#
+#gem 'bootstrap-sass'
+#
+#gem 'geocoder'
 #
 gem 'pry-rails', group: :development
