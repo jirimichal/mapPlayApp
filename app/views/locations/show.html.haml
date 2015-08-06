@@ -1,0 +1,20 @@
+%p#notice= notice
+%h3 Nearby locations
+%ul
+-#  -for location in @location.nearbys(10)
+-#    %li = link_to location.address, location (=location.distance.round(2) km)
+
+%p
+  %b Address:
+  = @location.address
+%p
+  %b Latitude:
+  = @location.latitude
+%p
+  %b Longitude:
+  = @location.longitude
+= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@location.latitude}%2C#{@location.longitude}"
+%br
+= link_to 'Edit', edit_location_path(@location)
+\|
+= link_to 'Back', locations_path

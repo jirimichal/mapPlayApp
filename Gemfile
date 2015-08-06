@@ -60,3 +60,4 @@ gem 'bootstrap-sass'
 gem 'geocoder'
 #
 gem 'pry-rails', group: :development
+#
