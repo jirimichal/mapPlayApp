@@ -1,6 +1,8 @@
 !!!
 %html
   %head
+    %title
+      = yield(:title)
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title MapPlayApp
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
