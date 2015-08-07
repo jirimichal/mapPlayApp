@@ -60,3 +60,9 @@ gem 'bootstrap-sass'
 gem 'geocoder'
 #
 gem 'pry-rails', group: :development
+#
+gem 'minitest-reporters', group: :test
+#
+gem 'guard',group: :development
+#
+gem 'guard-minitest', group: :development
