@@ -66,3 +66,5 @@ gem 'minitest-reporters', group: :test
 # gem 'guard',group: :development
 #
 # gem 'guard-minitest', group: :development
+#
+gem 'bcrypt'
