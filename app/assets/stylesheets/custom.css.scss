@@ -164,3 +164,18 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.dield_with_errrs {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text
+  }
+}
